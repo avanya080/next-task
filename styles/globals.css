@@ -1,7 +1,7 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 15px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +13,30 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.alignment{
+  display:flex;
+}
+
+.button-style{
+
+margin: auto;
+vertical-align: middle;
+left: 35%;
+height:8vh;
+position:relative;
+background-color: #008CBA; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+cursor: pointer;
+border-radius:10px;
+}
+
+.button-style:hover{
+  opacity:0.8;
 }
